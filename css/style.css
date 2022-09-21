@@ -8,6 +8,7 @@
   background-color: black !important;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 } 
 
 .main-color{
