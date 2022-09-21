@@ -549,7 +549,9 @@ color: #FFFFFF;
   background-image: url(../img/arrow1.png) !important;
   transform: rotate(180deg) !important;
 }
-
+.modal-body p{
+  font-size: 17px !important;
+}
 .modal-backdrop {
     z-index: 0 !important;
 }
@@ -562,8 +564,12 @@ color: #FFFFFF;
     background: linear-gradient(180deg, #2E0640 0%, #0B0B38 100%) !important;
     
 }
+.modal.show .modal-dialog{
+  max-width: 100% !important;
+}
 .modal-content {
     background: linear-gradient(180deg, #2E0640 0%, #0B0B38 100%) !important;
+   
 }
 .modal-header{
     border: none !important;
@@ -605,4 +611,13 @@ color: #FFFFFF;
     display: none;
   }
 }
+
+
+@media 
+  (min-device-width: 769px) 
+  and (max-device-width: 1280px){
+    .modal-body p{
+      font-size: 26px !important;
+    }
+  }
 /************** media quires End ***********/
